@@ -1,0 +1,51 @@
+pageInfo:
+  title: Felice Dashboard
+  description: Welcome to Felice Dashboard
+  navLinks: []
+  logo: https://i.imgur.com/OKKtilZ.png
+appConfig:
+  auth:
+    enableGuestAccess: true
+    users:
+    - user: john
+      hash: c5f38d00449bdef0236c5f803f4a96e942c7702573b895a20508fcee809985dd
+      type: admin
+  theme: material
+sections:
+  - name: Felice Web Apps
+    icon: fas fa-rocket
+    items:
+      - &ref_0
+        title: Felice Notifications
+        description: Send Emergency Notifications
+        icon: 🔔
+        url: https://notifications.gfa-scratchlab.com/
+        target: modal
+        statusCheck: true
+        id: 0_1481_felicenotifications
+      - &ref_1
+        title: Dolce Hall Booking
+        description: Booking for Dolce Rooms
+        icon: 📆
+        url: https://reservation.gfa-scratchlab.com/
+        target: modal
+        statusCheck: true
+        id: 1_1481_dolcehallbooking
+      - &ref_2
+        title: Ipad & Chrome Reservation
+        description: Reserve Ipad and Chrome Devices
+        icon: 📲
+        url: https://reservationsystem-5dda1.web.app/
+        target: modal
+        statusCheck: true
+        id: 2_1481_ipadchromereservation
+    filteredItems:
+      - *ref_0
+      - *ref_1
+      - *ref_2
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
