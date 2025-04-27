@@ -74,7 +74,39 @@ sections:
         timeout: 1000
         ignoreErrors: true
         label: Tamamura,Gunma,JP
-        id: 0_727_weatherforecast
+        id: 0_727_weather
+      - type: clock
+        options:
+          timeZone: Asia/Tokyo
+          format: en-GB
+          hideDate: false
+        updateInterval: 600
+        useProxy: true
+        timeout: 1000
+        ignoreErrors: true
+        id: 0_727_clock
+  - name: Word of the Day
+    icon: fas fa-bullhorn
+    displayData:
+      sortBy: default
+      rows: 1
+      cols: 1
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: embed
+        options:
+          html: |
+            <div id="widget" style="width:100%;height:450px;margin:0 auto;"><iframe src="https://www.innovativelanguage.com/widgets/wotd/embed.php?language=English_US&type=large&bg=%23FFFFFF&content=%23000&header=%23003593&highlight=%23F9F9FA&opacity=1&scrollbg=%2300CAED&sound=%2300ACED&text=%2300ACED&quiz=N" width="100%" height="450" frameborder="0" scrolling="no"></iframe><div style="font:bold 9px/16px Verdana; padding:0; height:16px;"><div style="float:left; margin:0;"><a href="https://www.englishclass101.com/english-phrases/" target="_parent" title="Get English (US) Phrases Widget" style="font-family: Helvetica, Arial, sans-serif;font-size: 11px;color: #00ACED;" rel="nofollow">Get English (US) Phrases Widget</a></div><div style="float:right; margin:0;"><a href="https://www.englishclass101.com" target="_parent" title="Learn English (US)" style="font-family: Helvetica, Arial, sans-serif;font-size: 11px;color: #00ACED;" rel="nofollow">Learn English (US)</a></div></div></div>
+        updateInterval: 600
+        useProxy: true
+        timeout: 1000
+        ignoreErrors: true
+        id: 0_729_WOD
+      - type: embed
+        options:
+          html: |
+            <div id="widget" style="width:100%;height:450px;margin:0 auto;"><iframe src="https://www.innovativelanguage.com/widgets/wotd/embed.php?language=Japanese&type=large&bg=%23FFFFFF&content=%23000&header=%23EB2A2E&highlight=%23F9F9FA&opacity=1&scrollbg=%2300CAED&sound=%2300ACED&text=%2300ACED&quiz=N" width="100%" height="450" frameborder="0" scrolling="no"></iframe><div style="font:bold 9px/16px Verdana; padding:0; height:16px;"><div style="float:left; margin:0;"><a href="https://www.japanesepod101.com/japanese-phrases/" target="_parent" title="Get Japanese Phrases Widget" style="font-family: Helvetica, Arial, sans-serif;font-size: 11px;color: #00ACED;" rel="nofollow">Get Japanese Phrases Widget</a></div><div style="float:right; margin:0;"><a href="https://www.japanesepod101.com" target="_parent" title="Learn Japanese" style="font-family: Helvetica, Arial, sans-serif;font-size: 11px;color: #00ACED;" rel="nofollow">Learn Japanese</a></div></div></div>
   - name: Felice Web Apps
     icon: fas fa-rocket
     items:
