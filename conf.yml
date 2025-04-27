@@ -75,16 +75,6 @@ sections:
         ignoreErrors: true
         label: Tamamura,Gunma,JP
         id: 0_727_weather
-      - type: clock
-        options:
-          timeZone: Asia/Tokyo
-          format: en-GB
-          hideDate: false
-        updateInterval: 600
-        useProxy: true
-        timeout: 1000
-        ignoreErrors: true
-        id: 0_727_clock
   - name: Word of the Day
     icon: fas fa-bullhorn
     displayData:
