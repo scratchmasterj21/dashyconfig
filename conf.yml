@@ -111,7 +111,14 @@ sections:
         description: Record Physical Fitness of Students
         icon: >-
           https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpCL2N6R-Jdtnc_yfIRlH7Gf38adwBB-cXQA&s
-        url: https://physicalfitness-48836.web.app/
+        url: https://physical-fitness-record.netlify.app/
+        target: newtab
+        statusCheck: true
+        id: 4_1338_physicalfitness
+      - title: FireDesk
+        description: Ticket Management System
+        icon: 🔥
+        url: https://firedesk.netlify.app/
         target: newtab
         statusCheck: true
         id: 4_1338_physicalfitness
