@@ -121,7 +121,14 @@ sections:
         url: https://firedesk.netlify.app/
         target: newtab
         statusCheck: true
-        id: 4_1338_physicalfitness
+        id: 4_1338_firedesk
+      - title: SearchLogs
+        description: Monitor Felice Search Logs
+        icon: 🔍
+        url: https://search-logs.vercel.app/
+        target: newtab
+        statusCheck: true
+        id: 4_1338_SearchLogs
     displayData:
       sortBy: default
       rows: 1
