@@ -78,13 +78,6 @@ sections:
   - name: Felice Web Apps
     icon: fas fa-rocket
     items:
-      - title: Felice Notifications
-        description: Send Emergency Notifications
-        icon: 🔔
-        url: https://notifications.gfa-scratchlab.com/
-        target: newtab
-        statusCheck: true
-        id: 0_1338_felicenotifications
       - title: Dolce Hall Booking
         description: Booking for Dolce Rooms
         icon: 📆
@@ -95,33 +88,18 @@ sections:
       - title: Ipad & Chrome Reservation
         description: Reserve Ipad and Chrome Devices
         icon: 📲
-        url: https://reservationsystem-5dda1.web.app/
+        url: https://device.gfa-scratchlab.com/
         target: newtab
         statusCheck: true
         id: 2_1338_ipadchromereservation
-      - title: Sports Day Grouping
-        description: Team Grouping for Sports Day
+      - title: Sports Day and Physical Fitness
+        description: Sports Day and Physical Fitness
         icon: >-
           https://cdn1.vectorstock.com/i/1000x1000/90/80/sport-day-icon-in-logotype-vector-38189080.jpg
-        url: https://average-speed-13d8b.firebaseapp.com/
+        url: https://felice-sports-day.netlify.app/
         target: newtab
         statusCheck: true
         id: 3_1338_sportsdaygrouping
-      - title: Physical Fitness
-        description: Record Physical Fitness of Students
-        icon: >-
-          https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpCL2N6R-Jdtnc_yfIRlH7Gf38adwBB-cXQA&s
-        url: https://physical-fitness-record.netlify.app/
-        target: newtab
-        statusCheck: true
-        id: 4_1338_physicalfitness
-      - title: FireDesk
-        description: Ticket Management System
-        icon: 🔥
-        url: https://firedesk.netlify.app/
-        target: newtab
-        statusCheck: true
-        id: 4_1338_firedesk
       - title: SearchLogs
         description: Monitor Felice Search Logs
         icon: 🔍
