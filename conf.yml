@@ -78,15 +78,8 @@ sections:
   - name: Felice Web Apps
     icon: fas fa-rocket
     items:
-      - title: Dolce Hall Booking
-        description: Booking for Dolce Rooms
-        icon: 📆
-        url: https://reservation.gfa-scratchlab.com/
-        target: newtab
-        statusCheck: true
-        id: 1_1338_dolcehallbooking
-      - title: Ipad & Chrome Reservation
-        description: Reserve Ipad and Chrome Devices
+      - title: Rooms and Device Reservation
+        description: Book Rooms and Reserve iPad and Chrome Devices
         icon: 📲
         url: https://device.gfa-scratchlab.com/
         target: newtab
